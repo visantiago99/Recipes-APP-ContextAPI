@@ -47,6 +47,7 @@ export default function Login() {
         <input
           type="email"
           name="email"
+          placeholder="insert your email"
           data-testid="email-input"
           onChange={ (e) => setLoginInput({
             ...loginInput,
@@ -61,6 +62,7 @@ export default function Login() {
         <input
           type="password"
           name="password"
+          placeholder="insert your password"
           data-testid="password-input"
           onChange={ (e) => setLoginInput({
             ...loginInput,
